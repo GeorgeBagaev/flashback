@@ -1,0 +1,71 @@
+/*        Модульная сетка        */
+.row:after,
+.row:before{
+	content: "";
+	display: table;
+}
+.row:after{
+	content: "";
+	clear:both;
+}
+.col{
+	float: left;
+	padding: 0 18px;
+	box-sizing: border-box;
+	min-height: 1px;
+}
+.s-1 { width: 8.33%; }
+.s-2 { width: 16.66%; }
+.s-3 { width: 25%; }
+.s-4 { width: 33.33%; }
+.s-5 { width: 41.66%; }
+.s-6 { width: 50%; }
+.s-7 { width: 58.33%; }
+.s-8 { width: 66.66%; }
+.s-9 { width: 75%; }
+.s-10 { width: 83.11%; }
+.s-11 { width: 91.66%; }
+.s-12 { width: 100%;}
+.to-right{
+	float: right;
+}
+.text-right{
+	text-align: right;
+}
+/*     container    */
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+/*     navigation    */
+.main-navigation{
+	background-color: black;
+	color: white;
+}
+.main-navigation-list{
+	list-style: none;
+}
+/*.main-navigation-label{
+	margin: 0;
+	vertical-align: middle;
+}
+*/.main-navigation-list-item{
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
