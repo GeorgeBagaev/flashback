@@ -1,3 +1,20 @@
+
+@font-face {
+	font-family: bebaslight;
+	src:url(../fonts/BebasNeueLight.ttf);
+}
+@font-face {
+	font-family: bebasregular;
+	src:url(../fonts/BebasNeueRegular.ttf);
+}
+@font-face {
+	font-family: bebasthin;
+	src:url(../fonts/BebasNeueThin.ttf);
+}
+/*         body             */
+body{
+	font-family: bebasregular;
+}
 /*        Модульная сетка        */
 .row:after,
 .row:before{
@@ -40,8 +57,13 @@
 }
 /*     navigation    */
 .main-navigation{
-	background-color: black;
-	color: white;
+background-image: -webkit-linear-gradient(#2f2f2f, black);
+background-image: -o-linear-gradient(#2f2f2f, black);
+background-image: linear-gradient(#2f2f2f, black);
+
+	color: #37C796;
+	position: relative;
+	font-size: 16px;
 }
 .main-navigation-list{
 	list-style: none;
@@ -50,9 +72,52 @@
 	margin: 0;
 	vertical-align: middle;
 }
-*/.main-navigation-list-item{
+*/
+.main-navigation-list-item{
 	display: inline-block;
 	margin: 0 20px 0 20px;
+}
+.main-navigation:after{
+	content: "";
+	width: 100%;
+	height: 5px;
+	display: block;
+	background-color: #37C796;
+	position: absolute;
+}
+    /*          main     */
+.promo{
+	height: 600px;
+	background-image: url(../img/bg-wood.jpg);
+	background-size: contain;
+
+}
+.img-promo{
+	margin: 0 auto;
+	display: block;
+	margin-top: 50px;
+}
+.slogan{
+	background-color: black;
+	height: 500px;
+	position: relative;
+	background-image: url(../img/bcg-steam1-24.png);
+}
+.slogan:before{
+	content: "";
+	width: 100%;
+	height: 5px;
+	background-color: #37C796;
+	position: absolute;
+	display: block;
+
+}
+.slogan-text{
+	text-align: center;
+	font-size: 60px;
+	color: #17c796;
+	vertical-align: middle;
+	padding-top: 150px;
 }
 
 
