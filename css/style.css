@@ -98,10 +98,21 @@ background-image: linear-gradient(#2f2f2f, black);
 	margin-top: 50px;
 }
 .slogan{
+	background:center 0 repeat fixed;
 	background-color: black;
-	height: 500px;
+
+	min-height: 500px;
 	position: relative;
 	background-image: url(../img/bcg-steam1-24.png);
+	background-size: cover;
+}
+.slogan-bcg{
+		background:center 0 repeat fixed;
+	background-image: url(../img/bcg-steam2-24.png);
+	background-size: cover;
+
+	min-height: 500px;
+	position: relative;
 }
 .slogan:before{
 	content: "";
@@ -119,7 +130,10 @@ background-image: linear-gradient(#2f2f2f, black);
 	vertical-align: middle;
 	padding-top: 150px;
 }
-
+.gallery{
+	height: 1500px;
+	background: url(../img/bg-wood.jpg);
+}
 
 
 
